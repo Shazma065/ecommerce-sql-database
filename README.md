@@ -6,16 +6,6 @@ This repository contains the full SQL setup for an eCommerce application using *
 
 ---
 
-## 📁 Contents
-
-| File                             | Description                                         |
-|----------------------------------|-----------------------------------------------------|
-| `ecommerce_schema.sql`           | Creates all required tables for the eCommerce app  |
-| `ecommerce_sample_data.sql`      | Populates tables with sample data for testing      |
-| `ecommerce_analysis_queries.sql` | SQL queries: JOINs, subqueries, views, indexing    |
-
----
-
 ## 📌 Features Covered
 
 ### ✅ Schema Creation
@@ -32,18 +22,6 @@ This repository contains the full SQL setup for an eCommerce application using *
 - Aggregate functions (`SUM`, `AVG`, `COUNT`)
 - Views for data analysis
 - Index creation for performance optimization
-
----
-
-## 🛠️ How to Use
-
-1. Clone the repository or download the `.sql` files
-2. Open **MySQL Workbench**
-3. Run `ecommerce_schema.sql` to create tables
-4. Run `ecommerce_sample_data.sql` to insert data
-5. Run `ecommerce_analysis_queries.sql` to execute advanced queries
-
-> 💡 Make sure to `USE ecommerce;` in MySQL before running queries.
 
 ---
 
